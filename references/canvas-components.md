@@ -157,4 +157,4 @@ Evals are how you know if your prompt is working at scale. They also make iterat
    - Doesn't fabricate when uncertain
    - Halts when confidence is low
 
-**For the Invincibles:** Store eval test cases alongside the prompt spec. Run them on every prompt version bump. Structural evals can be automated in CI; semantic evals should be reviewed by a team member before shipping.
+**For teams:** Store eval test cases alongside the prompt spec. Run them on every prompt version bump. Structural evals can be automated in CI; semantic evals should be reviewed by a team member before shipping.
